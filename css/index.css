@@ -626,3 +626,122 @@ html,body{
 	right:30px;
 	margin-left:10px;
 }
+.section_six_content{
+	width:100%;
+	height:580px;	
+}
+.section_six_content>ul{
+	height: 500px;
+    margin: 0 auto;
+    perspective: 800px;
+    position: relative;
+    width:1050px;
+    margin-top:60px;
+   position:relative;
+} 
+.section_six_content>ul li:nth-child(1){
+	position:absolute;
+	left:25%;
+	top:0px;
+   transform: rotateX(10deg) rotateZ(-90deg) translateX(380px);
+   width:500px;
+   height:1050px;
+   z-index:20;
+}
+.section_six_content>ul li img{
+	width:100%;
+	height:100%;
+}
+.section_six_content>ul li:nth-child(2){
+   transform-origin: center center;
+   transform:translateZ(-100px) rotateX(40deg) rotateZ(-90deg) translateX(150px) ;
+   width:500px;
+   height:1050px;
+   position:absolute;
+   left:25%;
+   top:0px;
+}
+.section_third{
+	width:100%;
+	height:100vh;
+	overflow: hidden;
+	background-image:url(../img/p6_bg.jpg);
+	background-size:100% 120%;
+}
+.section_third_header{
+	width:100%;
+	height:95px;
+	background:rgba(0,0,0,0.3);
+	position:relative;
+}
+
+.section_third_header{
+	width:100%;
+	height:95px;
+	background:rgba(0,0,0,0.5);
+}
+.section_third_left{
+   width:30%;
+   height:95px;
+   position:relative;
+}
+.section_third_left img{
+	width:55%;
+	height:23px;
+	position:absolute;
+	left:17%;
+	top:38px;
+}
+.section_third_right{
+	width:46%;
+	height:95px;
+	line-height:105px;
+    position:absolute;
+    left:54%;
+    top:0px;
+}
+.section_third_right a{
+    color:white;
+    font-size:14px;
+    margin:7px;
+}
+.section_third_right div{
+	position:absolute;
+	top:15px;
+	right:30px;
+	margin-left:10px;
+}
+.section_third_content{
+	width:100%;
+	height:auto;
+}
+.section_third_left{
+	width:51%;
+	height:auto;
+}
+.section_third_left>p:nth-child(1){
+	width:100%;
+	height:160px;
+	text-align:center;
+}
+.section_third_left>p:nth-child(1)>a{
+	width:150px;
+	height:160px;
+	display:block;
+	margin:0px auto;
+}
+.section_third_left>p:nth-child(1) span:nth-child(1){
+	font-size:56px;
+	color: #004559;
+    display:block;
+    float:left;
+    font-weight:bold;
+    line-height:180px;
+}
+.section_third_left>p:nth-child(1) span:nth-child(2){
+	font-size:36px;
+	color: #004559;
+    display:block;
+    float:left;
+    line-height:190px;
+}
